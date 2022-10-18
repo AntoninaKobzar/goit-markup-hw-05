@@ -105,7 +105,7 @@ ul {
 .current-link:active {
         color: var(--button-active-color);
 }
-.site-nav.current-link::after {
+.current-link::after {
         content: "";
         display: inline-block;
         position: absolute;
