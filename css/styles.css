@@ -77,7 +77,7 @@ ul {
 .site-nav .item {
         display: flex;
         display: block;
-        position: relative;
+        position: relative; 
 }
 .site-nav .item:not(:last-child) {
         margin-right: 50px;
