@@ -86,7 +86,7 @@ ul {
         margin-left: 0;
 }
 .site-nav .link,
-.current-link {
+.current-page {
         display: block;
         font-weight: 500;
         font-size: 14px;
@@ -98,22 +98,20 @@ ul {
         padding-bottom: 32px;       
 }
 .site-nav .link:hover,
-.current-link:hover,
 .site-nav .link:focus,
-.current-link:focus,
-.site-nav .link:active,
-.current-link:active {
+.site-nav .link:active
+ {
         color: var(--button-active-color);
 }
-.current-link::after {
-        display: inline-block;
-        content: "";
+.current-page::after {
+        display: block;
+        content: '';
         width: 100%;
         height: 4px;
         position: absolute;
         left: 0;
         bottom: -2px;
-        color: var(--button-active-color);
+        background-color: var(--button-active-color);
         border-radius: 2px;
 } 
 /*Контакти*/
