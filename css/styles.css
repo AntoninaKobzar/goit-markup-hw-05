@@ -263,7 +263,7 @@ ul {
 .button-close:hover,
 .button-close:focus,
 .button-close:active {
-transform: box-shadow(0);
+transform: box-shadow(none);
 }
 .x-icon {
         fill: currentColor;
