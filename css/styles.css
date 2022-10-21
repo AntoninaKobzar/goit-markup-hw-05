@@ -636,7 +636,7 @@ transform: box-shadow;
         display: flex;
         align-items: baseline;
         list-style: none;
-        padding: 0;
+        padding: 0 0 60px 0;
 }
 
 .footer-links {
@@ -666,6 +666,7 @@ transform: box-shadow;
         background-color: #F5F4FA;
         border-radius: 4px;
         border-width: 0;
+        cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters {
